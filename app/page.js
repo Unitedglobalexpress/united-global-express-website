@@ -56,7 +56,7 @@ export default function Home() {
     <main style={styles.page}>
       <section style={styles.topBar}>
         <div style={styles.brandRow}>
-         <img src="/36E94461-1540-4593-B925-D0DCA65E8AB7.PNG" style={{height:"80px"}} />
+         <img src="/logo.png" style={{height:"80px"}} />
           <div>
             <div style={styles.brandName}>United Global Express LLC</div>
             <div style={styles.brandSub}>Warehousing & Logistics</div>
