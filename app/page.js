@@ -223,10 +223,8 @@ address: {
           <div className="navActions">
            <div className="navCallWrap">
   <a href="tel:8482283535" className="navLink">
-    Call
-  </a>
-  <span className="navCallNote">Scheduled after-hours</span>
-</div>
+  Call
+</a>
             <a href="mailto:info@unitedglobalexpress.com" className="navLink">
               Email
             </a>
