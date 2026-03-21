@@ -77,14 +77,15 @@ const coreRates = [
     note: '40" x 48" size. 10-pallet minimum charge.',
   },
   {
-    service: "Pallet Storage",
-    price: "$5 / day or $70 / month per pallet",
-    note: "Storage charge starts after 1 hour.",
+  service: "Pallet Storage",
+  price: "$4 – $60 / pallet",
+  note: "Short-term and monthly rates based on storage duration and volume.",
   },
   {
-    service: "Standard Pallet",
-    price: "$15 / pallet",
-    note: "",
+    {
+  service: "Standard Pallet",
+  price: "$10 / pallet",
+  note: "Basic pallet handling, staging and warehouse processing.",
   },
   {
     service: "Pallet Wrapping",
@@ -323,6 +324,9 @@ address: {
             <p>
               Clean mobile cards are easier to read than large tables on a phone.
             </p>
+            <p className="priceDisclaimer">
+             Pricing varies based on volume, handling complexity and service requirements.
+             </p>
           </div>
 
           <div className="priceGrid">
