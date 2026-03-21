@@ -222,7 +222,7 @@ address: {
               Email
             </a>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=United+Global+Express+LLC+Branchburg+NJ"
+             href="https://www.google.com/maps/search/?api=1&query=34+Columbia+Rd,+Branchburg,+NJ+08876"
               className="navLink"
               target="_blank"
               rel="noreferrer"
@@ -242,7 +242,7 @@ address: {
             <div className="eyebrow">
   Serving Branchburg, NJ • Central NJ • Port Newark • NYC
 </div>
-            <h1>Cross-Dock, Container Unloading & Pallet Storage in New Jersey</h1>
+           <h1>Cross-Dock, Container Unloading, Pallet Storage & Pallet Restocking in New Jersey</h1>
             <p className="heroText">
   Serving Branchburg, NJ, Central New Jersey, Port Newark and NYC region with fast cross-dock, pallet storage, pallet restocking and 3PL warehouse services. United Global Express LLC provides practical warehouse and logistics support for importers, distributors, eCommerce businesses and trucking companies looking for cross-dock, storage and container unloading near Port Newark and across New Jersey.
 </p>
@@ -269,6 +269,7 @@ address: {
               <li>Cross-Dock</li>
               <li>Container Unloading</li>
               <li>Pallet Storage</li>
+              <li>Pallet Restocking</li>
               <li>3PL Fulfillment</li>
               <li>Drayage Coordination</li>
               <li>Freight Brokerage</li>
