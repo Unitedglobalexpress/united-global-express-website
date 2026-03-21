@@ -520,13 +520,13 @@ address: {
         }
 
         .nav {
-          min-height: 56px;
+          min-height: 64px;
           display: flex;
           align-items: center;
           justify-content: space-between;
           gap: 12px;
-          padding-top: 4px;
-          padding-bottom: 4px;
+          padding-top: 6px;
+          padding-bottom: 6px;
         }
 
         .brand {
@@ -602,7 +602,7 @@ address: {
         }
 
         .hero {
-          padding: 32px 0 20px;
+          padding: 28px 0 20px;
           background:
             radial-gradient(circle at top right, rgba(245, 158, 11, 0.14), transparent 30%),
             linear-gradient(180deg, #eef4ff 0%, #f4f7fb 100%);
