@@ -395,17 +395,17 @@ address: {
               coordination across the NJ / NYC market.
           </div>
 
-          <div className="seoCard">
-            <div className="seoCardTitle">Services we handle daily</div>
-            <ul className="checkList light">
-              <li>Cross-dock New Jersey</li>
-              <li>Cross-dock near Port Newark</li>
-              <li>Container unloading NJ</li>
-              <li>Pallet storage Branchburg NJ</li>
-              <li>3PL warehouse near NYC</li>
-            </ul>
-          </div>
-        </div>
+         <div className="seoCard">
+  <div className="seoCardTitle">Services we handle daily</div>
+  <ul className="checkList light">
+    <li>Cross-dock New Jersey</li>
+    <li>Cross-dock near Port Newark</li>
+    <li>Container unloading NJ</li>
+    <li>Pallet storage Branchburg NJ</li>
+    <li>Pallet restocking NJ</li>
+    <li>3PL warehouse near NYC</li>
+  </ul>
+</div>
       </section>
 
       <section className="section" id="quote">
