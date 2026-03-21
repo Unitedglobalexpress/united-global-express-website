@@ -508,6 +508,7 @@ address: {
           max-width: 1180px;
           margin: 0 auto;
           padding: 0 20px;
+        }
         .siteHeader {
           position: relative;
           top: auto;
