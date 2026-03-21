@@ -2,17 +2,23 @@ export const metadata = {
   title:
     "United Global Express LLC | Cross-Dock, 3PL Warehousing & Pallet Storage in New Jersey",
   description:
-    "United Global Express LLC provides cross-dock, 3PL warehousing, pallet storage, container unloading, drayage coordination and freight brokerage in Branchburg, New Jersey and near Port Newark.",
+  "United Global Express LLC provides cross-dock, 3PL warehousing, pallet storage, pallet restocking, container unloading, drayage coordination and freight brokerage in Branchburg, New Jersey near Port Newark.",
   keywords: [
-    "cross dock New Jersey",
-    "cross dock near Port Newark",
-    "3PL warehouse New Jersey",
-    "pallet storage Branchburg NJ",
-    "container unloading New Jersey",
-    "warehouse near Port Newark",
-    "cross docking NJ",
-    "drayage coordination NJ",
-  ],
+  "cross dock New Jersey",
+  "cross dock near Port Newark",
+  "3PL warehouse New Jersey",
+  "pallet storage Branchburg NJ",
+  "container unloading New Jersey",
+  "warehouse near Port Newark",
+  "cross docking NJ",
+  "drayage coordination NJ",
+
+  // NEW (important)
+  "pallet restocking New Jersey",
+  "pallet restocking near Port Newark",
+  "warehouse restocking NJ",
+  "restocking warehouse services",
+],
   alternates: {
     canonical: "https://unitedglobalexpress.com",
   },
