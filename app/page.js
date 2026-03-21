@@ -430,7 +430,7 @@ address: {
 
             <div className="contactCard">
               <span className="contactLabel">Location</span>
-              <strong>Branchburg, New Jersey</strong>
+              <strong>34 Columbia Rd, Branchburg, NJ 08876</strong>
             </div>
           </div>
         </div>
