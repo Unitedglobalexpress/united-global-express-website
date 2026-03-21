@@ -509,15 +509,15 @@ address: {
           margin: 0 auto;
           padding: 0 20px;
         .siteHeader {
-          position: sticky;
-          top: 0;
+          position: relative;
+          top: auto;
           z-index: 50;
           background: rgba(255, 255, 255, 0.96);
           backdrop-filter: blur(10px);
           border-bottom: 1px solid #e5e7eb;
           padding-top: 0;
           padding-bottom: 0;
-        }
+         }
 
         .nav {
           min-height: 64px;
