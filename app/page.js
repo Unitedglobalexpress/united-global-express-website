@@ -172,7 +172,17 @@ export default function Home() {
     url: "https://unitedglobalexpress.com",
     image: "https://unitedglobalexpress.com/logo.png",
     email: "info@unitedglobalexpress.com",
-    telephone: "+1-848-228-3535",
+   telephone: "+1-848-228-3535",
+
+address: {
+  "@type": "PostalAddress",
+  streetAddress: "34 Columbia Rd",
+  addressLocality: "Branchburg",
+  addressRegion: "NJ",
+  postalCode: "08876",
+  addressCountry: "US"
+},
+
     areaServed: [
       "Branchburg, New Jersey",
       "Central New Jersey",
@@ -229,14 +239,13 @@ export default function Home() {
       <section className="hero">
         <div className="container heroGrid">
           <div className="heroCard">
-            <div className="eyebrow">Serving Branchburg, NJ • Port Newark • NYC Region</div>
+            <div className="eyebrow">
+  Serving Branchburg, NJ • Central NJ • Port Newark • NYC
+</div>
             <h1>Cross-Dock, Container Unloading & Pallet Storage in New Jersey</h1>
             <p className="heroText">
-              United Global Express LLC provides practical warehouse and logistics
-              support for importers, distributors, eCommerce businesses and
-              trucking companies looking for cross-dock, storage and container
-              unloading near Port Newark and across New Jersey.
-            </p>
+  Serving Branchburg, NJ, Central New Jersey, Port Newark and NYC region with fast cross-dock, pallet storage, pallet restocking and 3PL warehouse services. United Global Express LLC provides practical warehouse and logistics support for importers, distributors, eCommerce businesses and trucking companies looking for cross-dock, storage and container unloading near Port Newark and across New Jersey.
+</p>
 
             <div className="heroButtons">
               <a href="#quote" className="button buttonPrimary">
@@ -426,7 +435,33 @@ export default function Home() {
           </div>
         </div>
       </section>
+<section className="locationSection">
+  <div className="container">
+   <h2>Warehouse Location – Branchburg, NJ (Near Port Newark)</h2>
 
+   <p>34 Columbia Rd, Branchburg, NJ 08876 – Cross-dock, pallet storage and 3PL warehouse location near Port Newark.</p>
+
+    <a 
+      href="https://maps.google.com/?q=34+Columbia+Rd,+Branchburg,+NJ+08876" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="button buttonPrimary"
+    >
+      Open in Google Maps
+    </a>
+
+    <div className="mapWrapper">
+      <iframe
+        src="https://www.google.com/maps?q=34+Columbia+Rd,+Branchburg,+NJ+08876&output=embed"
+        width="100%"
+        height="300"
+        style={{ border: 0 }}
+        loading="lazy"
+      ></iframe>
+    </div>
+
+  </div>
+</section>
       <footer className="footer">
         <div className="container footerInner">
           <div>© {new Date().getFullYear()} United Global Express LLC</div>
