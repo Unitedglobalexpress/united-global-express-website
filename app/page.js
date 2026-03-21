@@ -92,9 +92,9 @@ const coreRates = [
     note: "",
   },
   {
-    service: "Pallet Restock",
-    price: "$80 / pallet",
-    note: "",
+  service: "Pallet Restocking",
+  price: "$45 – $80 / pallet",
+  note: "Light restocking starts at $45. Complex sorting, breakdown and re-stacking priced up to $80 per pallet.",
   },
   {
     service: "Oversize Pallet Reload",
