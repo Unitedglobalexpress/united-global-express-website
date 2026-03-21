@@ -519,15 +519,15 @@ address: {
           border-bottom: 1px solid #e5e7eb;
         }
 
-        .nav {
-          min-height: 88px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 16px;
-          padding-top: 14px;
-          padding-bottom: 14px;
-        }
+.nav {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
         .brand {
           display: flex;
