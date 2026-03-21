@@ -543,7 +543,7 @@ address: {
         }
 
         .logo {
-  height: 88px;
+  height: 94px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
