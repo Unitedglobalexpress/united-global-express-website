@@ -510,25 +510,22 @@ address: {
           padding: 0 20px;
         }
         .siteHeader {
-          position: relative;
-          top: auto;
+          position: sticky;
+          top: 0;
           z-index: 50;
           background: rgba(255, 255, 255, 0.96);
           backdrop-filter: blur(10px);
           border-bottom: 1px solid #e5e7eb;
-          padding-top: 0;
-          padding-bottom: 0;
-         }
+        }
 
         .nav {
-          min-height: 64px;
+          min-height: 60px;
           display: flex;
           align-items: center;
           justify-content: space-between;
           gap: 12px;
-          padding-top: 6px;
-          padding-bottom: 6px;
-        }
+          padding: 4px 0;
+         }
 
         .brand {
           display: flex;
