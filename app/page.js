@@ -396,7 +396,7 @@ address: {
           </div>
 
           <div className="seoCard">
-            <div className="seoCardTitle">Search phrases this page supports</div>
+            <div className="seoCardTitle">Services we handle daily</div>
             <ul className="checkList light">
               <li>Cross-dock New Jersey</li>
               <li>Cross-dock near Port Newark</li>
