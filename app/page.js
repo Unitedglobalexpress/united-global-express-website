@@ -82,7 +82,6 @@ const coreRates = [
   note: "Short-term and monthly rates based on storage duration and volume.",
   },
   {
-    {
   service: "Standard Pallet",
   price: "$10 / pallet",
   note: "Basic pallet handling, staging and warehouse processing.",
