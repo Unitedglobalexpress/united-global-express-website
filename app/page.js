@@ -65,10 +65,10 @@ const services = [
     text: "Local coordination near Port Newark and throughout the NJ / NYC region.",
   },
   {
-    title: "Freight Brokerage",
-    text: "Reliable freight solutions backed by real warehouse and trucking experience.",
+    title: "Pallet Restocking",
+    text: "Efficient pallet restocking, sorting and pallet reconfiguration based on customer requirements.",
   },
-];
+  ];
 
 const coreRates = [
   {
