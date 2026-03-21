@@ -648,10 +648,10 @@ address: {
         }
 
         h1 {
-          margin: 0 0 16px;
-          font-size: clamp(34px, 6vw, 64px);
-          line-height: 1.05;
-          letter-spacing: -0.03em;
+         margin: 0 0 16px;
+         font-size: clamp(28px, 4.5vw, 48px);
+         line-height: 1.1;
+         letter-spacing: -0.02em;
         }
 
         h2 {
