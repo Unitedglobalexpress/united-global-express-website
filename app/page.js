@@ -383,6 +383,9 @@ address: {
       <section className="section sectionDark">
         <div className="container seoBlock">
           <div>
+            <section className="section sectionDark">
+        <div className="container seoBlock">
+          <div>
             <span className="sectionTag sectionTagDark">Local SEO</span>
             <h2>Cross-dock near Port Newark and warehouse support in Branchburg, NJ</h2>
             <p>
@@ -390,7 +393,6 @@ address: {
               container unloading near Port Newark, pallet storage in Branchburg,
               3PL warehouse support near NYC, and flexible local logistics
               coordination across the NJ / NYC market.
-            </p>
           </div>
 
           <div className="seoCard">
