@@ -543,12 +543,12 @@ address: {
         }
 
         .logo {
-          height: 72px;
-          width: auto;
-          max-width: 100%;
-          object-fit: contain;
-          display: block;
-        }
+  height: 88px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
 
         .brandName {
           font-size: 22px;
