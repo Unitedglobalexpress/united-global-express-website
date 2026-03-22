@@ -235,11 +235,12 @@ address: {
   >
     Directions
   </a>
-  <a href="#quote" className="button buttonPrimary">
+    <a href="#quote" className="button buttonPrimary">
     Get Quote
   </a>
 </div>
-      </header>
+</div>
+</header>
 
       <section className="hero">
         <div className="container heroGrid">
