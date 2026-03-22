@@ -430,15 +430,15 @@ address: {
               <strong>info@unitedglobalexpress.com</strong>
             </a>
 
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=United+Global+Express+LLC+Branchburg+NJ"
-              className="contactCard"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="contactLabel">Directions</span>
-              <strong>Open in Google Maps</strong>
-            </a>
+           <a
+             href="https://www.google.com/maps/dir/?api=1&destination=34+Columbia+Rd,+Branchburg,+NJ+08876"
+             className="contactCard"
+             target="_blank"
+             rel="noreferrer"
+           >
+             <span className="contactLabel">Directions</span>
+             <strong>Open in Google Maps</strong>
+           </a>
 
             <div className="contactCard">
               <span className="contactLabel">Location</span>
