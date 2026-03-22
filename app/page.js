@@ -380,31 +380,32 @@ address: {
         </div>
       </section>
 
-      <section className="section sectionDark">
-        <div className="container seoBlock">
-          <div>
-            <span className="sectionTag sectionTagDark">Local SEO</span>
-            <h2>Cross-dock near Port Newark and warehouse support in Branchburg, NJ</h2>
-            <p>
-              We serve businesses searching for cross-dock in New Jersey,
-              container unloading near Port Newark, pallet storage in Branchburg,
-              3PL warehouse support near NYC, and flexible local logistics
-              coordination across the NJ / NYC market.
-            </p>
-          </div>
+     <section className="section sectionDark">
+  <div className="container seoBlock">
+    <div>
+      <span className="sectionTag sectionTagDark">Warehouse Services</span>
+      <h2>
+        Cross-Dock & Warehouse Services Near Port Newark – Fast, Reliable, 24/7
+      </h2>
+      <p>
+        Fast cross-dock, container unloading, pallet restocking and storage available
+        same day. We support importers, distributors, eCommerce businesses and
+        trucking companies across Branchburg, Central New Jersey, Port Newark and NYC.
+      </p>
+    </div>
 
-          <div className="seoCard">
-            <div className="seoCardTitle">Search phrases this page supports</div>
-            <ul className="checkList light">
-              <li>Cross-dock New Jersey</li>
-              <li>Cross-dock near Port Newark</li>
-              <li>Container unloading NJ</li>
-              <li>Pallet storage Branchburg NJ</li>
-              <li>3PL warehouse near NYC</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    <div className="seoCard">
+      <div className="seoCardTitle">Services we handle daily</div>
+      <ul className="checkList light">
+        <li>Cross-dock New Jersey</li>
+        <li>Cross-dock near Port Newark</li>
+        <li>Container unloading NJ</li>
+        <li>Pallet storage Branchburg NJ</li>
+        <li>Pallet restocking NJ</li>
+        <li>3PL warehouse near NYC</li>
+      </ul>
+    </div>
+</section>
 
       <section className="section" id="quote">
         <div className="container quoteWrap">
