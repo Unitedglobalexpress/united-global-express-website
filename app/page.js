@@ -221,25 +221,24 @@ address: {
           </a>
 
           <div className="navActions">
-           <div className="navCallWrap">
   <a href="tel:8482283535" className="navLink">
-  Call
-</a>
-            <a href="mailto:info@unitedglobalexpress.com" className="navLink">
-              Email
-            </a>
-            <a
-             href="https://www.google.com/maps/search/?api=1&query=34+Columbia+Rd,+Branchburg,+NJ+08876"
-              className="navLink"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Directions
-            </a>
-            <a href="#quote" className="button buttonPrimary">
-              Get Quote
-            </a>
-          </div>
+    Call
+  </a>
+  <a href="mailto:info@unitedglobalexpress.com" className="navLink">
+    Email
+  </a>
+  <a
+    href="https://www.google.com/maps/search/?api=1&query=34+Columbia+Rd,+Branchburg,+NJ+08876"
+    className="navLink"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Directions
+  </a>
+  <a href="#quote" className="button buttonPrimary">
+    Get Quote
+  </a>
+</div>
       </header>
 
       <section className="hero">
