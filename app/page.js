@@ -420,11 +420,12 @@ address: {
             </p>
           </div>
 
-          <div className="contactCards">
-            <a href="tel:8482283535" className="contactCard">
-              <span className="contactLabel">Phone</span>
-              <strong>848-228-3535</strong>
-            </a>
+           <div className="contactCard">
+  <span className="contactLabel">Phone</span>
+  <strong>848-228-3535</strong>
+  <div className="phoneNote">
+    After-hours and weekends by scheduled appointment only.
+  </div>
 
             <a href="mailto:info@unitedglobalexpress.com" className="contactCard">
               <span className="contactLabel">Email</span>
