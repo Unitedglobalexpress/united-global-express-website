@@ -405,6 +405,7 @@ address: {
         <li>3PL warehouse near NYC</li>
       </ul>
     </div>
+  </div>
 </section>
 
       <section className="section" id="quote">
