@@ -216,7 +216,7 @@ address: {
             />
             <div className="brandText">
               <div className="brandName">United Global Express LLC</div>
-              <div className="brandSub">Cross-Dock • Warehousing • Logistics</div>
+              <div className="brandSub">Cross-Dock • Restocking • Warehousing • Logistics</div>
             </div>
           </a>
 
