@@ -240,7 +240,6 @@ address: {
               Get Quote
             </a>
           </div>
-        </div>
       </header>
 
       <section className="hero">
