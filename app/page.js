@@ -65,10 +65,10 @@ const services = [
     text: "Local coordination near Port Newark and throughout the NJ / NYC region.",
   },
   {
-    title: "Pallet Restocking",
-    text: "Efficient pallet restocking, sorting and pallet reconfiguration based on customer requirements.",
+    title: "Freight Brokerage",
+    text: "Reliable freight solutions backed by real warehouse and trucking experience.",
   },
-  ];
+];
 
 const coreRates = [
   {
@@ -221,26 +221,26 @@ address: {
           </a>
 
           <div className="navActions">
-  <a href="tel:8482283535" className="navLink">
-    Call
-  </a>
-  <a href="mailto:info@unitedglobalexpress.com" className="navLink">
-    Email
-  </a>
-  <a
-    href="https://www.google.com/maps/search/?api=1&query=34+Columbia+Rd,+Branchburg,+NJ+08876"
-    className="navLink"
-    target="_blank"
-    rel="noreferrer"
-  >
-    Directions
-  </a>
-    <a href="#quote" className="button buttonPrimary">
-    Get Quote
-  </a>
-</div>
-</div>
-</header>
+            <a href="tel:8482283535" className="navLink">
+              Call
+            </a>
+            <a href="mailto:info@unitedglobalexpress.com" className="navLink">
+              Email
+            </a>
+            <a
+             href="https://www.google.com/maps/search/?api=1&query=34+Columbia+Rd,+Branchburg,+NJ+08876"
+              className="navLink"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Directions
+            </a>
+            <a href="#quote" className="button buttonPrimary">
+              Get Quote
+            </a>
+          </div>
+        </div>
+      </header>
 
       <section className="hero">
         <div className="container heroGrid">
@@ -380,33 +380,31 @@ address: {
         </div>
       </section>
 
-<section className="section sectionDark">
-  <div className="container seoBlock">
-    <div>
-      <span className="sectionTag sectionTagDark">Warehouse Services</span>
-      <h2>
-        Cross-Dock & Warehouse Services Near Port Newark – Fast, Reliable, 24/7
-      </h2>
-      <p>
-        Fast cross-dock, container unloading, pallet restocking and storage available same day.
-        We support importers, distributors, eCommerce businesses and trucking companies across
-        Branchburg, Central New Jersey, Port Newark and NYC.
-      </p>
-    </div>
+      <section className="section sectionDark">
+        <div className="container seoBlock">
+          <div>
+            <span className="sectionTag sectionTagDark">Local SEO</span>
+            <h2>Cross-dock near Port Newark and warehouse support in Branchburg, NJ</h2>
+            <p>
+              We serve businesses searching for cross-dock in New Jersey,
+              container unloading near Port Newark, pallet storage in Branchburg,
+              3PL warehouse support near NYC, and flexible local logistics
+              coordination across the NJ / NYC market.
+            </p>
+          </div>
 
-    <div className="seoCard">
-      <div className="seoCardTitle">Services we handle daily</div>
-      <ul className="checkList light">
-        <li>Cross-dock New Jersey</li>
-        <li>Cross-dock near Port Newark</li>
-        <li>Container unloading NJ</li>
-        <li>Pallet storage Branchburg NJ</li>
-        <li>Pallet restocking NJ</li>
-        <li>3PL warehouse near NYC</li>
-      </ul>
-    </div>
-  </div>
-</section>
+          <div className="seoCard">
+            <div className="seoCardTitle">Search phrases this page supports</div>
+            <ul className="checkList light">
+              <li>Cross-dock New Jersey</li>
+              <li>Cross-dock near Port Newark</li>
+              <li>Container unloading NJ</li>
+              <li>Pallet storage Branchburg NJ</li>
+              <li>3PL warehouse near NYC</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section className="section" id="quote">
         <div className="container quoteWrap">
@@ -419,12 +417,11 @@ address: {
             </p>
           </div>
 
-           <div className="contactCard">
-  <span className="contactLabel">Phone</span>
-  <strong>848-228-3535</strong>
-  <div className="phoneNote">
-    After-hours and weekends by scheduled appointment only.
-  </div>
+          <div className="contactCards">
+            <a href="tel:8482283535" className="contactCard">
+              <span className="contactLabel">Phone</span>
+              <strong>848-228-3535</strong>
+            </a>
 
             <a href="mailto:info@unitedglobalexpress.com" className="contactCard">
               <span className="contactLabel">Email</span>
