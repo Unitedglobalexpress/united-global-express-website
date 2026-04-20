@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const metadata = {
   title:
     "United Global Express LLC | Cross-Dock, 3PL Warehousing & Pallet Storage in New Jersey",
@@ -45,8 +46,9 @@ export const viewport = {
 
 const services = [
   {
-    title: "Cross-Dock",
-    text: "Fast cross-dock support to move freight in and out without unnecessary storage time.",
+  title: "Cross-Dock",
+  text: "Fast cross-dock support to move freight in and out without unnecessary storage time.",
+  href: "/cross-dock-new-jersey",
   },
   {
     title: "Container Unloading",
@@ -305,13 +307,25 @@ address: {
           </div>
 
           <div className="serviceGrid">
-            {services.map((service) => (
-              <article key={service.title} className="card">
-                <h3>{service.title}</h3>
-                <p>{service.text}</p>
-              </article>
-            ))}
-          </div>
+  {services.map((service) =>
+    service.href ? (
+      <Link
+        key={service.title}
+        href={service.href}
+        className="card"
+        style={{ textDecoration: "none", color: "inherit", display: "block" }}
+      >
+        <h3>{service.title}</h3>
+        <p>{service.text}</p>
+      </Link>
+    ) : (
+      <article key={service.title} className="card">
+        <h3>{service.title}</h3>
+        <p>{service.text}</p>
+      </article>
+    )
+  )}
+</div>
         </div>
       </section>
 
