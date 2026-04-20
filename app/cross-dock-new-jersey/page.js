@@ -34,36 +34,51 @@ export default function CrossDockPage() {
           and short-term storage.
         </p>
 
-        <div style={{ marginTop: "28px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
-          <a
-            href="tel:8482283535"
-            style={{
-              background: "#f59e0b",
-              color: "#111827",
-              textDecoration: "none",
-              padding: "14px 18px",
-              borderRadius: "12px",
-              fontWeight: 800,
-            }}
-          >
-            Call 848-228-3535
-          </a>
+ <div style={{ marginTop: "28px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
+  <a
+    href="/"
+    style={{
+      background: "#ffffff",
+      color: "#0b3a82",
+      textDecoration: "none",
+      padding: "14px 18px",
+      borderRadius: "12px",
+      border: "2px solid #dbeafe",
+      fontWeight: 800,
+    }}
+  >
+    ← Home
+  </a>
 
-          <a
-            href="/#quote"
-            style={{
-              background: "#ffffff",
-              color: "#0b3a82",
-              textDecoration: "none",
-              padding: "14px 18px",
-              borderRadius: "12px",
-              border: "2px solid #dbeafe",
-              fontWeight: 800,
-            }}
-          >
-            Request Quote
-          </a>
-        </div>
+  <a
+    href="tel:8482283535"
+    style={{
+      background: "#f59e0b",
+      color: "#111827",
+      textDecoration: "none",
+      padding: "14px 18px",
+      borderRadius: "12px",
+      fontWeight: 800,
+    }}
+  >
+    Call 848-228-3535
+  </a>
+
+  <a
+    href="/#quote"
+    style={{
+      background: "#ffffff",
+      color: "#0b3a82",
+      textDecoration: "none",
+      padding: "14px 18px",
+      borderRadius: "12px",
+      border: "2px solid #dbeafe",
+      fontWeight: 800,
+    }}
+  >
+    Request Quote
+  </a>
+</div>
       </section>
 
       <section style={{ padding: "0 20px 70px", maxWidth: "1100px", margin: "0 auto" }}>
