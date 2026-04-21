@@ -1,7 +1,10 @@
 export const metadata = {
   title: "Cross-Dock Services in New Jersey | United Global Express LLC",
   description:
-    "Cross-dock services in New Jersey near Port Newark. Fast freight transfers, pallet restocking, short-term storage and container unloading in Branchburg, NJ.",
+    "Cross-dock services in New Jersey near Port Newark. Fast freight transfers, pallet restocking, container unloading and short-term storage in Branchburg, NJ.",
+  alternates: {
+    canonical: "https://unitedglobalexpress.com/cross-dock-new-jersey",
+  },
 };
 
 export default function CrossDockPage() {
