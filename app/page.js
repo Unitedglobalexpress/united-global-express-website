@@ -176,7 +176,7 @@ export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "United Global Express LLC",
+    name: "",
     url: "https://unitedglobalexpress.com",
     image: "https://unitedglobalexpress.com/logo.png",
     email: "info@unitedglobalexpress.com",
@@ -212,14 +212,14 @@ address: {
         <div className="container nav">
           <a href="/" className="brand">
             <img
-              src="/logo.png"
-              alt="United Global Express LLC logo"
-              className="logo"
-            />
-            <div className="brandText">
-              <div className="brandName">United Global Express LLC</div>
-              <div className="brandSub">Cross-Dock • Restocking • Warehousing • Logistics</div>
-            </div>
+  src="/logo.png"
+  alt="United Global Express Cross Dock & Fulfillment logo"
+  className="Logo"
+/>
+<div className="brandText">
+  <div className="brandName">United Global Express</div>
+  <div className="brandSub">Cross Dock & Fulfillment</div>
+</div>
           </a>
 
           <div className="navActions">
@@ -488,13 +488,16 @@ address: {
 
   </div>
 </section>
-      <footer className="footer">
-        <div className="container footerInner">
-          <div>© {new Date().getFullYear()} United Global Express LLC</div>
-          <div>Cross-Dock • Warehousing • Container Unloading • Pallet Storage</div>
-        </div>
-      </footer>
-
+<footer className="footer">
+  <div className="container footerInner">
+    <div>
+      © {new Date().getFullYear()} United Global Express Cross Dock & Fulfillment
+      <br />
+      <span className="legalLine">Operated by United Global Express LLC</span>
+    </div>
+    <div>Cross-Dock • Fulfillment • Container Unloading • Pallet Restocking</div>
+  </div>
+</footer>
       <div className="mobileBar">
         <a href="tel:8482283535">Call</a>
         <a href="mailto:info@unitedglobalexpress.com">Email</a>
@@ -935,6 +938,12 @@ address: {
           flex-wrap: wrap;
           font-size: 14px;
         }
+      .legalLine {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #94a3b8;
+}
 
         .mobileBar {
           display: none;
