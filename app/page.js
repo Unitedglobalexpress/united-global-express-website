@@ -214,7 +214,7 @@ address: {
             <img
   src="/logo.png"
   alt="United Global Express Cross Dock & Fulfillment logo"
-  className="Logo"
+  className="logo"
 />
 <div className="brandText">
   <div className="brandName">United Global Express</div>
