@@ -51,9 +51,10 @@ const services = [
   href: "/cross-dock-new-jersey",
   },
   {
-    title: "Container Unloading",
-    text: "Practical unloading support for importers, freight forwarders and local distributors.",
-  },
+  title: "Container Unloading",
+  text: "Container unloading, floor-loaded freight unloading, palletizing and staging support near Port Newark.",
+  href: "/container-unloading-new-jersey",
+},
   {
     title: "Pallet Storage",
     text: "Short-term and monthly pallet storage solutions for overflow and ongoing warehouse support.",
