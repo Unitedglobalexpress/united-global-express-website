@@ -67,10 +67,11 @@ const services = [
     title: "Drayage Coordination",
     text: "Local coordination near Port Newark and throughout the NJ / NYC region.",
   },
-  {
-    title: "Freight Brokerage",
-    text: "Reliable freight solutions backed by real warehouse and trucking experience.",
-  },
+ {
+  title: "Pallet Restocking / Rework",
+  text: "Pallet restocking, rework, sorting, shrink wrap, labeling and reload support for rejected or shifted freight.",
+  href: "/pallet-restocking-new-jersey",
+},
 ];
 
 const coreRates = [
@@ -281,7 +282,7 @@ address: {
               <li>Pallet Restocking</li>
               <li>3PL Fulfillment</li>
               <li>Drayage Coordination</li>
-              <li>Freight Brokerage</li>
+              <li>Warehouse Rework</li>
             </ul>
 
             <div className="panelDivider" />
