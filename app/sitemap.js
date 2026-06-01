@@ -1,16 +1,20 @@
 export default function sitemap() {
-  return [
-    {
-      url: "https://unitedglobalexpress.com",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: "https://unitedglobalexpress.com/cross-dock-new-jersey",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
+  const baseUrl = "https://unitedglobalexpress.com";
+
+  const routes = [
+    "",
+    "/cross-dock-new-jersey",
+    "/container-unloading-new-jersey",
+    "/pallet-restocking-new-jersey",
+    "/pallet-storage-new-jersey",
+    "/fulfillment-new-jersey",
+    "/transloading-new-jersey",
   ];
+
+  return routes.map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: route === "" ? 1.0 : 0.9,
+  }));
 }
