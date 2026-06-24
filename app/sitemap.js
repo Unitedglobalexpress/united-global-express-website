@@ -6,9 +6,6 @@ export default function sitemap() {
     "/cross-dock-new-jersey",
     "/container-unloading-new-jersey",
     "/pallet-restocking-new-jersey",
-    "/pallet-storage-new-jersey",
-    "/fulfillment-new-jersey",
-    "/transloading-new-jersey",
   ];
 
   return routes.map((route) => ({
